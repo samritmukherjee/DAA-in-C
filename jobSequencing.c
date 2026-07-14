@@ -17,8 +17,10 @@ int main()
     printf("Enter number of jobs: ");
     scanf("%d", &n);
 
+
     printf("Enter Job ID, Deadline and Profit:\n");
 
+    
     for(i = 0; i < n; i++)
     {
         scanf("%s%d%d", job[i].id, &job[i].deadline, &job[i].profit);
