@@ -30,16 +30,14 @@ Each algorithm is implemented in a separate source file with proper comments to 
 - 8 Queen Problem
 - Graph Coloring Problem
 - Hamiltonian Cycle Problem
+- Travelling Salesman Problem (TSP)
 
 ### 5. Greedy Algorithms
-- Knapsack Problem
+- Fractional Knapsack Problem
 - Job Sequencing with Deadlines
 
 ### 6. Branch and Bound
 - 15 Puzzle Problem
-
-### 7. Other Algorithms
-- Traveling Salesman Problem (TSP)
 
 ---
 
@@ -48,26 +46,26 @@ Each algorithm is implemented in a separate source file with proper comments to 
 ```
 DAA-in-C/
 │
-├── Binary_Search.c
-├── Merge_Sort.c
-├── Quick_Sort.c
-├── Max_Min_Divide_Conquer.c
-├── Matrix_Chain_Multiplication.c
-├── Floyd_Warshall.c
-├── Traveling_Salesman.c
-├── Dijkstra.c
-├── Bellman_Ford.c
-├── Fifteen_Puzzle_Branch_and_Bound.c
-├── Eight_Queen.c
-├── Graph_Coloring.c
-├── Hamiltonian_Cycle.c
-├── Knapsack_Greedy.c
-├── Job_Sequencing.c
-├── Prim.c
-├── Kruskal.c
+├── BinarySearch.c
+├── MergeSort.c
+├── QuickSort.c
+├── MaxMinUsingDnC.c
+├── MatrixChainMultiplication.c
+├── Floyed-Warshall-Algorithm-APSP.c
+├── TravellingSellsmanProblem.c
+├── DijkstraAlgorithm.c
+├── BellmanFordAlgorithm.c
+├── 15PuzzleProblem.c
+├── 8QueenProblem.c
+├── GraphColoring.c
+├── HamiltonianCycle.c
+├── FractionalKnapsack.c
+├── JobSequencing.c
+├── PrimsAlgorithm.c
+├── KruskalAlgorithm.c
 ├── BFS.c
 ├── DFS.c
-└── README.md
+└── readme.md
 ```
 
 ---
@@ -86,27 +84,29 @@ The objective of this repository is to provide clean and understandable implemen
 
 ## 📝 Syllabus Covered
 
-| Experiment | Algorithm |
-|------------|-----------|
-| 1A | Binary Search |
-| 1B | Merge Sort |
-| 2A | Quick Sort |
-| 2B | Maximum & Minimum (Divide & Conquer) |
-| 3 | Matrix Chain Multiplication |
-| 4A | Floyd–Warshall Algorithm |
-| 4B | Traveling Salesman Problem |
-| 5A | Dijkstra Algorithm |
-| 5B | Bellman-Ford Algorithm |
-| 6 | 15 Puzzle Problem (Branch and Bound) |
-| 7 | 8 Queen Problem |
-| 8 | Graph Coloring |
-| 9 | Hamiltonian Cycle |
-| 10A | Knapsack (Greedy) |
-| 10B | Job Sequencing with Deadlines |
-| 11A | Prim's MST |
-| 11B | Kruskal's MST |
-| 12A | Breadth First Search (BFS) |
-| 12B | Depth First Search (DFS) |
+| Experiment | Algorithm | File |
+|------------|-----------|------|
+| 1A | Binary Search | `BinarySearch.c` |
+| 1B | Merge Sort | `MergeSort.c` |
+| 2A | Quick Sort | `QuickSort.c` |
+| 2B | Maximum & Minimum (Divide & Conquer) | `MaxMinUsingDnC.c` |
+| 3 | Matrix Chain Multiplication | `MatrixChainMultiplication.c` |
+| 4A | Floyd–Warshall Algorithm (APSP) | `Floyed-Warshall-Algorithm-APSP.c` |
+| 4B | Travelling Salesman Problem | `TravellingSellsmanProblem.c` |
+| 5A | Dijkstra Algorithm | `DijkstraAlgorithm.c` |
+| 5B | Bellman-Ford Algorithm | `BellmanFordAlgorithm.c` |
+| 6 | 15 Puzzle Problem (Branch and Bound) | `15PuzzleProblem.c` |
+| 7 | 8 Queen Problem | `8QueenProblem.c` |
+| 8 | Graph Coloring | `GraphColoring.c` |
+| 9 | Hamiltonian Cycle | `HamiltonianCycle.c` |
+| 10A | Fractional Knapsack (Greedy) | `FractionalKnapsack.c` |
+| 10B | Job Sequencing with Deadlines | `JobSequencing.c` |
+| 11A | Prim's MST | `PrimsAlgorithm.c` |
+| 11B | Kruskal's MST | `KruskalAlgorithm.c` |
+| 12A | Breadth First Search (BFS) | `BFS.c` |
+| 12B | Depth First Search (DFS) | `DFS.c` |
+
+---
 
 ## ⭐ If you find this repository useful
 
