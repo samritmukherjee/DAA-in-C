@@ -1,0 +1,86 @@
+# =========================
+# Executable Files
+# =========================
+*.exe
+*.out
+*.app
+*.elf
+
+# =========================
+# Object Files
+# =========================
+*.o
+*.obj
+*.lo
+
+# =========================
+# Static & Shared Libraries
+# =========================
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# =========================
+# Debug Files
+# =========================
+*.pdb
+*.idb
+*.ilk
+*.dSYM/
+
+# =========================
+# Precompiled Headers
+# =========================
+*.gch
+*.pch
+
+# =========================
+# Compiler Generated Files
+# =========================
+*.stackdump
+
+# =========================
+# IDE Files
+# =========================
+
+# Visual Studio Code
+.vscode/
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
