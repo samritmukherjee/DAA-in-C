@@ -76,7 +76,7 @@ Makefile
 compile_commands.json
 
 # =========================
-# Temporary Files
+# Temporary Files:
 # =========================
 *.tmp
 *.temp
